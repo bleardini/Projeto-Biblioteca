@@ -1,0 +1,100 @@
+ #woman{
+
+  width: 100%;
+  height: 500px;
+
+  /* background-color: black; */
+
+  background-image: url('./imagens/bs.jpeg');
+
+  background-repeat: repeat-x;
+
+}
+
+body {
+  background-image: linear-gradient(to top left,#f2d64bd0, #F2EEB3, #f2d64bd0 )
+}
+
+h1, h2{
+  text-align: center;
+}
+
+main{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+nav{
+  background-color: #68788C;
+}
+
+.menu-principal{
+  position: absolute;
+    top: 329px;
+    width: 100%;
+
+    text-align: center;
+}
+
+.menu-principal li{
+  float: left;
+  padding: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  list-style: none;  
+}
+
+a{
+  text-decoration:none; 
+  color: black;
+  font-size: 20px;
+  
+}
+
+.capa img{
+  width: 300px;
+  height: 450px;
+}
+
+#categoria1 , #categoria2, #categoria3{
+      border: solid 5px #979DA6;
+      background-image: linear-gradient(to top left, #979DA6 , #F2EEB3)
+
+}
+
+h1 {
+  background-color: #68788C;
+  padding: 25px;
+}
+
+h2 {
+  background-color: #68788C;
+  padding: 25px;
+}
+
+
+.capa img{
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 10px 10px 10px gray;
+  
+}
+
+footer div{
+  /* height: 50px; */
+  background-color: rgb(196, 196, 206);
+  display: flex;
+padding: 20px;
+}
+
+.rodape a{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 80px;
+  margin:center;
+  /* color: aliceblue; */
+} 
